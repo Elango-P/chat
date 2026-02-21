@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "My Portfolio Chat",
+    "slug": "myportfolio-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b141a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.elango.myportfolio"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0b141a"
+      },
+      "package": "com.elango.myportfolio"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
